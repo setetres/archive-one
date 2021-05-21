@@ -662,6 +662,49 @@
         </div>
       </div>
     </div>
+
+    <div class="flex flex-col flex-1">
+      <div class="flex">
+        <div class="px-16">
+          <div class="sticky py-16 top-0">
+            <div class="bg-white rounded-full shadow-md">
+              <div class="flex justify-between">
+                <div class="py-8">
+                  <h3 class="font-marker text-gray-500 text-2xl px-8">
+                    version 1
+                  </h3>
+                </div>
+                <div class="flex flex-1 border-l p-8">
+                  <div class="flex-1">ddd</div>
+                  <div>View</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center justify-center flex-1 p-16">
+          <div
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
+          >
+            <div class="border-b border-b border-gray-200 dark:border-gray-800">
+              <div class="flex space-x-2 py-6 px-8">
+                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              </div>
+            </div>
+            <div><img src="~/assets/images/v1.png" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
