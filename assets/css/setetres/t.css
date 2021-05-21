@@ -1,0 +1,31 @@
+.setetres .setetres__letter.setetres__letter--t div:first-child::before {
+  height: var(--setetres-font-weight);
+  right: 0;
+  top: 0;
+  transition: width var(--transition-timing) var(--transition-easing) 0ms;
+  width: 100%;
+}
+
+.setetres .setetres__letter.setetres__letter--t div:first-child::after {
+  height: calc(100% - var(--setetres-font-weight));
+  left: 50%;
+  margin-left: calc(var(--setetres-font-weight-half) * -1);
+  top: var(--setetres-font-weight);
+  transition: height var(--transition-timing) var(--transition-easing) 200ms;
+  width: var(--setetres-font-weight);
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--t div:first-child::before {
+  height: var(--setetres-font-weight);
+  right: 0;
+  top: 0;
+  width: 0;
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--t div:first-child::after {
+  height: 0;
+  left: 50%;
+  margin-left: calc(var(--setetres-font-weight-half) * -1);
+  top: 0;
+  width: var(--setetres-font-weight);
+}

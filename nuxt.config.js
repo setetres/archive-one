@@ -32,8 +32,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap',
       },
     ],
   },
@@ -46,7 +45,14 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/tailwind.css'],
+  css: [
+    '@/assets/css/application.css',
+    '@/assets/css/setetres/s.css',
+    '@/assets/css/setetres/e.css',
+    '@/assets/css/setetres/t.css',
+    '@/assets/css/setetres/r.css',
+    '@/assets/css/setetres/setetres.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

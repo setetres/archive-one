@@ -1,0 +1,105 @@
+.setetres .setetres__letter.setetres__letter--s div:first-child::before {
+  bottom: 75%;
+  height: calc(25% - var(--setetres-font-weight));
+  right: 0;
+  transition: height var(--transition-timing) var(--transition-easing) 0ms;
+  width: var(--setetres-font-weight);
+}
+
+.setetres .setetres__letter.setetres__letter--s div:first-child::after {
+  height: var(--setetres-font-weight);
+  right: 0;
+  top: 0;
+  transition: width var(--transition-timing) var(--transition-easing) 200ms;
+  width: 100%;
+}
+
+.setetres .setetres__letter.setetres__letter--s div:nth-child(2)::before {
+  height: calc(50% - calc(var(--setetres-font-weight) * 2) + calc(var(--setetres-font-weight-half)));
+  left: 0;
+  top: var(--setetres-font-weight);
+  transition: height var(--transition-timing) var(--transition-easing) 400ms;
+  width: var(--setetres-font-weight);
+}
+
+.setetres .setetres__letter.setetres__letter--s div:nth-child(2)::after {
+  height: var(--setetres-font-weight);
+  left: 0;
+  top: calc(50% - var(--setetres-font-weight-half));
+  transition: width var(--transition-timing) var(--transition-easing) 600ms;
+  width: 100%;
+}
+
+.setetres .setetres__letter.setetres__letter--s div:nth-child(3)::before {
+  height: calc(50% - calc(var(--setetres-font-weight) * 2) + calc(var(--setetres-font-weight-half)));
+  right: 0;
+  top: calc(50% + var(--setetres-font-weight-half));
+  transition: height var(--transition-timing) var(--transition-easing) 800ms;
+  width: var(--setetres-font-weight);
+}
+
+.setetres .setetres__letter.setetres__letter--s div:nth-child(3)::after {
+  bottom: 0;
+  height: var(--setetres-font-weight);
+  right: 0;
+  transition: width var(--transition-timing) var(--transition-easing) 1000ms;
+  width: 100%;
+}
+
+.setetres .setetres__letter.setetres__letter--s div:last-child::before {
+  bottom: var(--setetres-font-weight);
+  height: calc(25% - var(--setetres-font-weight));
+  left: 0;
+  transition: height var(--transition-timing) var(--transition-easing) 1200ms;
+  width: var(--setetres-font-weight);
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:first-child::before {
+  bottom: 75%;
+  height: 0;
+  right: 0;
+  width: var(--setetres-font-weight);
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:first-child::after {
+  height: var(--setetres-font-weight);
+  right: 0;
+  top: 0;
+  width: 0;
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:nth-child(2)::before {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: var(--setetres-font-weight);
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:nth-child(2)::after {
+  height: var(--setetres-font-weight);
+  left: 0;
+  margin-top: calc(var(--setetres-font-weight-half) * -1);
+  top: 50%;
+  width: 0;
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:nth-child(3)::before {
+  height: 0;
+  right: 0;
+  top: 50%;
+  width: var(--setetres-font-weight);
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:nth-child(3)::after {
+  bottom: 0;
+  height: var(--setetres-font-weight);
+  right: 0;
+  width: 0;
+}
+
+.setetres.setetres--loading .setetres__letter.setetres__letter--s div:last-child::before {
+  bottom: 0;
+  height: 0;
+  left: 0;
+  width: var(--setetres-font-weight);
+}
