@@ -2,35 +2,14 @@
   <div class="flex flex-col">
     <div class="flex flex-col flex-1 min-h-screen items-center justify-center">
       <header
-        class="
-          flex
-          sticky
-          top-0
-          w-full
-          py-16
-          max-w-3xl
-          mx-auto
-          z-20
-          select-none
-        "
+        class="flex sticky top-0 w-full py-16 max-w-3xl mx-auto z-20 select-none"
       >
         <div class="flex flex-1 bg-white rounded-full shadow-md">
           <h1 class="flex items-center justify-between p-4">
             <nuxt-link
               aria-label="Sete Três"
               to="/"
-              class="
-                flex
-                items-center
-                justify-center
-                w-16
-                h-16
-                rounded-full
-                ring-inset
-                focus:outline-none
-                focus:ring focus:ring-opacity-100 focus:ring-gray-900
-                hover:bg-gray-100
-              "
+              class="flex items-center justify-center w-16 h-16 rounded-full ring-inset focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-gray-900 hover:bg-gray-100"
             >
               <svg
                 class="w-8 h-8"
@@ -48,34 +27,12 @@
             </nuxt-link>
           </h1>
           <div
-            class="
-              flex flex-1
-              items-center
-              justify-start
-              bg-gray-100
-              font-semibold
-              text-gray-600
-              leading-tight
-              rounded-full
-              my-4
-              mr-4
-              px-8
-            "
+            class="flex flex-1 items-center justify-start bg-gray-100 font-semibold text-gray-600 leading-tight rounded-full my-4 mr-4 px-8"
           >
             <div id="quote"></div>
           </div>
           <span
-            class="
-              self-center
-              rounded-full
-              text-2xl
-              font-marker
-              py-1
-              ml-2
-              mr-8
-              text-gray-700
-              select-none
-            "
+            class="self-center rounded-full text-2xl font-marker py-1 ml-2 mr-8 text-gray-700 select-none"
           >
             Archive
           </span>
@@ -99,15 +56,7 @@
         />
       </svg>
       <div
-        class="
-          setetres setetres--loading
-          grid grid-cols-8
-          gap-12
-          top-16
-          right-16
-          bottom-16
-          left-16
-        "
+        class="setetres setetres--loading grid grid-cols-8 gap-12 top-16 right-16 bottom-16 left-16"
       >
         <div class="setetres__letter setetres__letter--s">
           <div />
@@ -168,14 +117,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -211,14 +153,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -254,14 +189,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -297,14 +225,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -340,14 +261,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -383,14 +297,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -426,14 +333,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -469,14 +369,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -512,14 +405,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -555,14 +441,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -598,14 +477,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -641,14 +513,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -684,14 +549,7 @@
         </div>
         <div class="flex items-center justify-center flex-1 p-16">
           <div
-            class="
-              rounded-3xl
-              shadow-md
-              bg-white
-              dark:bg-gray-900
-              mx-auto
-              overflow-hidden
-            "
+            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
