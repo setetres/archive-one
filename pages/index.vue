@@ -2,14 +2,38 @@
   <div class="flex flex-col">
     <div class="flex flex-col flex-1 min-h-screen items-center justify-center">
       <header
-        class="flex sticky top-0 w-full py-16 max-w-3xl mx-auto z-20 select-none"
+        class="
+          flex
+          sticky
+          top-0
+          w-full
+          py-16
+          max-w-3xl
+          mx-auto
+          z-20
+          select-none
+        "
       >
         <div class="flex flex-1 bg-white rounded-full shadow-md">
           <h1 class="flex items-center justify-between p-4">
-            <nuxt-link
+            <a
               aria-label="Sete Três"
-              to="/"
-              class="flex items-center justify-center w-16 h-16 rounded-full ring-inset focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-gray-900 hover:bg-gray-100"
+              href="https://setetres.st"
+              class="
+                flex
+                items-center
+                justify-center
+                w-16
+                h-16
+                rounded-full
+                ring-inset
+                focus:outline-none
+                focus:ring
+                focus:ring-opacity-100
+                focus:ring-gray-900
+                hover:bg-gray-100
+                select-none
+              "
             >
               <svg
                 class="w-8 h-8"
@@ -24,15 +48,36 @@
                   fill="#2563eb"
                 />
               </svg>
-            </nuxt-link>
+            </a>
           </h1>
           <div
-            class="flex flex-1 items-center justify-start bg-gray-100 font-semibold text-gray-600 leading-tight rounded-full my-4 mr-4 px-8"
+            class="
+              flex flex-1
+              items-center
+              justify-start
+              bg-gray-100
+              font-semibold
+              text-gray-600
+              leading-tight
+              rounded-full
+              my-4
+              mr-4
+              px-8
+            "
           >
             <div id="quote"></div>
           </div>
           <span
-            class="self-center rounded-full text-2xl font-marker py-1 ml-2 mr-8 text-gray-700 select-none"
+            class="
+              self-center
+              rounded-full
+              text-2xl
+              font-marker
+              ml-2
+              mr-8
+              text-gray-700
+              select-none
+            "
           >
             Archive
           </span>
@@ -56,7 +101,15 @@
         />
       </svg>
       <div
-        class="setetres setetres--loading grid grid-cols-8 gap-12 top-16 right-16 bottom-16 left-16"
+        class="
+          setetres setetres--loading
+          grid grid-cols-8
+          gap-12
+          top-16
+          right-16
+          bottom-16
+          left-16
+        "
       >
         <div class="setetres__letter setetres__letter--s">
           <div />
@@ -95,29 +148,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 12
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 12
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2020
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v12.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -131,29 +226,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 11
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 11
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2019
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v11.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -167,29 +304,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 10
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 10
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2018
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v10.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -203,29 +382,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 9
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 9
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2017
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v9.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -239,29 +460,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 8
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 8
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2016
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v8.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -275,29 +538,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 7
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 7
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2015
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v7.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -311,29 +616,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 6
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 6
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2014
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v6.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -347,29 +694,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 5
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 5
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2013
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v5.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -383,29 +772,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 4
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 4
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2012
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v4.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -419,29 +850,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 3
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 3
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2011
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v3.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -455,29 +928,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 2
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 2
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2010
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://v2.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -491,29 +1006,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 1997
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 1997
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2009
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://1997.setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -527,29 +1084,71 @@
         </div>
       </div>
     </div>
-
     <div class="flex flex-col flex-1">
       <div class="flex">
-        <div class="px-16">
+        <div class="px-16 w-1/3">
           <div class="sticky py-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
-                <div class="py-8">
-                  <h3 class="font-marker text-gray-500 text-2xl px-8">
-                    version 1
-                  </h3>
-                </div>
-                <div class="flex flex-1 border-l p-8">
-                  <div class="flex-1">ddd</div>
-                  <div>View</div>
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
+                  version 1
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 font-semibold">
+                    2008
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-8
+                        h-16
+                        m-4
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        select-none
+                      "
+                    >
+                      Visit website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center flex-1 p-16">
+        <div class="flex flex-1 items-center justify-center p-16">
           <div
-            class="rounded-3xl shadow-md bg-white dark:bg-gray-900 mx-auto overflow-hidden"
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
           >
             <div class="border-b border-b border-gray-200 dark:border-gray-800">
               <div class="flex space-x-2 py-6 px-8">
@@ -567,8 +1166,6 @@
 </template>
 <script>
 export default {
-  components: {},
-
   beforeRouteLeave(to, from, next) {
     setTimeout(function () {
       next()

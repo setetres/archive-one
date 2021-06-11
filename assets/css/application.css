@@ -5,47 +5,47 @@
 
 ::selection {
   /* background-color: rgba(16, 185, 129, .1); */
-  background-color: rgba(251, 191, 36, .1);
+  background-color: rgba(251, 191, 36, 0.1);
 }
 
 @keyframes background-waves {
-    0% {
-        background-position: 0 0;
-    }
+  0% {
+    background-position: 0 0;
+  }
 
-    100% {
-        background-position: 100px 40px;
-    }
+  100% {
+    background-position: 100px 40px;
+  }
 }
 
 @keyframes sttrs-svg {
-    0%,
-    70% {
-        stroke-dashoffset: 6000;
-    }
+  0%,
+  70% {
+    stroke-dashoffset: 6000;
+  }
 
-    70%,
-    100% {
-        stroke-dashoffset: 0;
-    }
+  70%,
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 
 .font-marker {
-  font-family: 'Permanent Marker', cursive;;
+  font-family: 'Permanent Marker', cursive;
 }
 
 body {
   background-attachment: fixed;
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23f9fafb' fill-opacity='1'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
 :root {
-    --color-foreground: #ffffff;
-    --setetres-font-weight: 2.5vw;
-    --setetres-font-weight-half: 1.25vw;
-    --transition-timing: 500ms;
-    --transition-easing: cubic-bezier(.2, 1, .2, 1);
+  --color-foreground: #fff;
+  --setetres-font-weight: 2.5vw;
+  --setetres-font-weight-half: 1.25vw;
+  --transition-timing: 500ms;
+  --transition-easing: cubic-bezier(0.2, 1, 0.2, 1);
 }
 
 .sttrs-svg line,
@@ -58,10 +58,11 @@ body {
   stroke-width: 15;
 }
 
- .sttrs-svg path {
-  animation: sttrs-svg 6666ms cubic-bezier(.4, 0, .14, 1) forwards infinite;
+.sttrs-svg path {
+  animation: sttrs-svg 6666ms cubic-bezier(0.4, 0, 0.14, 1) forwards infinite;
 }
 
 .sttrs-svg line {
-  animation: sttrs-svg 6666ms cubic-bezier(.4, 0, .14, 1) 666ms forwards infinite;
+  animation: sttrs-svg 6666ms cubic-bezier(0.4, 0, 0.14, 1) 666ms forwards
+    infinite;
 }
