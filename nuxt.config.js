@@ -1,4 +1,4 @@
-import tailwindConfig from './tailwind.config' // eslint-disable-line
+import tailwindConfig from './tailwind.config'
 
 export default {
   ssr: false,
