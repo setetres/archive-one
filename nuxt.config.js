@@ -34,7 +34,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://archive.setetres.st/images/share.png',
+        content: 'https://archive.setetres.st/share.png',
       },
       {
         hid: 'og:url',
@@ -60,7 +60,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://archive.setetres.st/images/share.png',
+        content: 'https://archive.setetres.st/share.png',
       },
     ],
     link: [
