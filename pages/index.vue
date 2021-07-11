@@ -1,14 +1,16 @@
 <template>
   <div class="flex flex-col">
-    <div class="flex flex-col flex-1 min-h-screen items-center justify-center">
+    <div
+      class="flex flex-col flex-1 xl:min-h-screen items-center justify-center"
+    >
       <header
         class="
           flex
           sticky
           top-0
           w-full
-          py-16
-          max-w-3xl
+          p-8
+          xl:p-16 xl:max-w-3xl
           mx-auto
           z-20
           select-none
@@ -16,9 +18,10 @@
       >
         <div class="flex flex-1 bg-white rounded-full shadow-md">
           <h1 class="flex items-center justify-between p-4">
-            <a
+            <nuxt-link
               aria-label="Sete Três"
-              href="https://setetres.st"
+              to="/"
+              exact
               class="
                 flex
                 items-center
@@ -48,7 +51,7 @@
                   fill="#2563eb"
                 />
               </svg>
-            </a>
+            </nuxt-link>
           </h1>
           <div
             class="
@@ -57,12 +60,14 @@
               justify-start
               bg-gray-100
               font-semibold
-              text-gray-600
+              text-gray-600 text-xs
+              sm:text-base
               leading-tight
               rounded-full
               my-4
               mr-4
               px-8
+              py-2
             "
           >
             <div id="quote"></div>
@@ -75,6 +80,8 @@
               font-marker
               ml-2
               mr-8
+              hidden
+              sm:block
               text-gray-700
               select-none
             "
@@ -85,7 +92,7 @@
       </header>
       <svg
         viewBox="0 0 558.6 252.2"
-        class="sttrs-svg -mt-8 absolute z-10 max-w-5xl"
+        class="sttrs-svg -mt-8 absolute z-10 max-w-5xl hidden xl:block"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -103,12 +110,18 @@
       <div
         class="
           setetres setetres--loading
-          grid grid-cols-8
+          grid-cols-8
           gap-12
-          top-16
-          right-16
-          bottom-16
-          left-16
+          top-8
+          xl:top-16
+          right-8
+          xl:right-16
+          bottom-8
+          xl:bottom-16
+          left-8
+          xl:left-16
+          hidden
+          xl:grid
         "
       >
         <div class="setetres__letter setetres__letter--s">
@@ -149,26 +162,27 @@
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 12
+                  Version 12
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2020
                   </div>
                   <div>
@@ -176,14 +190,17 @@
                       aria-label="Sete Três"
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://v12.setetres.st"
+                      href="https://setetres.st"
                       class="
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -192,10 +209,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -203,7 +221,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -221,32 +241,35 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v12.png" /></div>
+            <div>
+              <img src="~/assets/images/v12.png" alt="Sete Três — v12" />
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 11
+                  Version 11
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2019
                   </div>
                   <div>
@@ -259,9 +282,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -270,10 +296,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -281,7 +308,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -299,32 +328,35 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v11.png" /></div>
+            <div>
+              <img src="~/assets/images/v11.png" alt="Sete Três — v11" />
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 10
+                  Version 10
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2018
                   </div>
                   <div>
@@ -337,9 +369,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -348,10 +383,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -359,7 +395,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -377,32 +415,35 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v10.png" /></div>
+            <div>
+              <img src="~/assets/images/v10.png" alt="Sete Três — v10" />
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 9
+                  Version 9
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2017
                   </div>
                   <div>
@@ -415,9 +456,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -426,10 +470,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -437,7 +482,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -455,32 +502,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v9.png" /></div>
+            <div><img src="~/assets/images/v9.png" alt="Sete Três — v9" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 8
+                  Version 8
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2016
                   </div>
                   <div>
@@ -493,9 +541,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -504,10 +555,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -515,7 +567,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -533,32 +587,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v8.png" /></div>
+            <div><img src="~/assets/images/v8.png" alt="Sete Três — v8" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 7
+                  Version 7
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2015
                   </div>
                   <div>
@@ -571,9 +626,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -582,10 +640,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -593,7 +652,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -611,32 +672,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v7.png" /></div>
+            <div><img src="~/assets/images/v7.png" alt="Sete Três — v7" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 6
+                  Version 6
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2014
                   </div>
                   <div>
@@ -649,9 +711,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -660,10 +725,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -671,7 +737,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -689,32 +757,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v6.png" /></div>
+            <div><img src="~/assets/images/v6.png" alt="Sete Três — v6" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 5
+                  Version 5
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2013
                   </div>
                   <div>
@@ -727,9 +796,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -738,10 +810,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -749,7 +822,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -767,32 +842,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v5.png" /></div>
+            <div><img src="~/assets/images/v5.png" alt="Sete Três — v5" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 4
+                  Version 4
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2012
                   </div>
                   <div>
@@ -805,9 +881,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -816,10 +895,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -827,7 +907,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -845,32 +927,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v4.png" /></div>
+            <div><img src="~/assets/images/v4.png" alt="Sete Três — v4" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 3
+                  Version 3
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2011
                   </div>
                   <div>
@@ -883,9 +966,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -894,10 +980,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -905,7 +992,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -923,32 +1012,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v3.png" /></div>
+            <div><img src="~/assets/images/v3.png" alt="Sete Três — v3" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 2
+                  Version 2
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2010
                   </div>
                   <div>
@@ -961,9 +1051,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -972,10 +1065,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -983,7 +1077,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -1001,32 +1097,33 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v2.png" /></div>
+            <div><img src="~/assets/images/v2.png" alt="Sete Três — v2" /></div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 1997
+                  Version 1997
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2009
                   </div>
                   <div>
@@ -1039,9 +1136,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -1050,10 +1150,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -1061,7 +1162,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -1079,32 +1182,35 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v1997.png" /></div>
+            <div>
+              <img src="~/assets/images/v1997.png" alt="Sete Três — 1997" />
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="flex flex-col flex-1">
-      <div class="flex">
-        <div class="px-16 w-1/3">
-          <div class="sticky py-16 top-0">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
             <div class="bg-white rounded-full shadow-md">
               <div class="flex justify-between">
                 <h3
                   class="
                     self-center
                     rounded-full
-                    text-2xl
+                    text-base
+                    xl:text-2xl
                     font-marker
                     mx-8
                     text-gray-700
                     select-none
                   "
                 >
-                  version 1
+                  Version 1
                 </h3>
                 <div class="flex flex-1 border-l">
-                  <div class="flex flex-1 items-center px-8 font-semibold">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
                     2008
                   </div>
                   <div>
@@ -1117,9 +1223,12 @@
                         flex
                         items-center
                         justify-center
-                        px-8
+                        px-4
+                        xl:px-8
+                        w-16
                         h-16
                         m-4
+                        ml-0
                         font-semibold
                         rounded-full
                         ring-inset
@@ -1128,10 +1237,11 @@
                         focus:ring-opacity-100
                         focus:ring-gray-900
                         hover:bg-gray-100
+                        uppercase
                         select-none
                       "
                     >
-                      Visit website
+                      Go
                     </a>
                   </div>
                 </div>
@@ -1139,7 +1249,9 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center p-16">
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
           <div
             class="
               rounded-3xl
@@ -1157,7 +1269,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v1.png" /></div>
+            <div><img src="~/assets/images/v1.png" alt="Sete Três — v1" /></div>
           </div>
         </div>
       </div>

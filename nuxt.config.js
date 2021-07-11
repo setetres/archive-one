@@ -8,7 +8,7 @@ export default {
       lang: 'en',
     },
     bodyAttrs: {
-      class: 'overflow-y-scroll min-h-screen',
+      class: 'overflow-y-scroll min-h-screen select-none',
     },
     title: 'Sete Três — Archive',
     meta: [
@@ -17,6 +17,50 @@ export default {
         name: 'viewport',
         content:
           'width=device-width, height=device-height, user-scalable=no, initial-scale=1',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Since 2008.',
+      },
+
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:title', property: 'og:title', content: 'Sete Três — Archive' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Since 2008.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://archive.setetres.st/images/share.png',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://archive.setetres.st',
+      },
+
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Sete Três — Archive',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Since 2008.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://archive.setetres.st/images/share.png',
       },
     ],
     link: [
