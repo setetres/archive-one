@@ -1,7 +1,9 @@
-| [![archive](https://setetres.s3.amazonaws.com/setetres.st/img/share-archive.png?v=1&raw=true)](http://archive.setetres.st) |
-| -------------------------------------------------------------------------------------------------------------------------- |
+# archive
 
 [![Github License](https://img.shields.io/github/license/setetres/archive.svg?v=2)](https://github.com/setetres/archive/blob/main/LICENSE)
+
+| [![archive](https://setetres.s3.amazonaws.com/setetres.st/img/share-archive.png?v=2&raw=true)](http://archive.setetres.st) |
+| -------------------------------------------------------------------------------------------------------------------------- |
 
 ## License
 
