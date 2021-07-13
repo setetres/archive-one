@@ -190,15 +190,17 @@
                       aria-label="Sete Três"
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://setetres.st"
+                      href="https://v12.setetres.st"
                       class="
                         flex
                         items-center
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -242,7 +244,7 @@
               </div>
             </div>
             <div>
-              <img src="~/assets/images/v12.jpg" alt="Sete Três — v12" />
+              <img src="~/assets/images/v12.png" alt="Sete Três — v12" />
             </div>
           </div>
         </div>
@@ -284,8 +286,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -329,7 +333,7 @@
               </div>
             </div>
             <div>
-              <img src="~/assets/images/v11.jpg" alt="Sete Três — v11" />
+              <img src="~/assets/images/v11.png" alt="Sete Três — v11" />
             </div>
           </div>
         </div>
@@ -371,8 +375,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -416,7 +422,7 @@
               </div>
             </div>
             <div>
-              <img src="~/assets/images/v10.jpg" alt="Sete Três — v10" />
+              <img src="~/assets/images/v10.png" alt="Sete Três — v10" />
             </div>
           </div>
         </div>
@@ -458,8 +464,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -502,7 +510,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v9.jpg" alt="Sete Três — v9" /></div>
+            <div><img src="~/assets/images/v9.png" alt="Sete Três — v9" /></div>
           </div>
         </div>
       </div>
@@ -543,8 +551,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -587,7 +597,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v8.jpg" alt="Sete Três — v8" /></div>
+            <div><img src="~/assets/images/v8.png" alt="Sete Três — v8" /></div>
           </div>
         </div>
       </div>
@@ -628,8 +638,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -672,7 +684,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v7.jpg" alt="Sete Três — v7" /></div>
+            <div><img src="~/assets/images/v7.png" alt="Sete Três — v7" /></div>
           </div>
         </div>
       </div>
@@ -713,8 +725,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -757,7 +771,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v6.jpg" alt="Sete Três — v6" /></div>
+            <div><img src="~/assets/images/v6.png" alt="Sete Três — v6" /></div>
           </div>
         </div>
       </div>
@@ -798,8 +812,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -842,7 +858,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v5.jpg" alt="Sete Três — v5" /></div>
+            <div><img src="~/assets/images/v5.png" alt="Sete Três — v5" /></div>
           </div>
         </div>
       </div>
@@ -883,8 +899,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -927,7 +945,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v4.jpg" alt="Sete Três — v4" /></div>
+            <div><img src="~/assets/images/v4.png" alt="Sete Três — v4" /></div>
           </div>
         </div>
       </div>
@@ -968,8 +986,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -1012,7 +1032,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v3.jpg" alt="Sete Três — v3" /></div>
+            <div><img src="~/assets/images/v3.png" alt="Sete Três — v3" /></div>
           </div>
         </div>
       </div>
@@ -1053,8 +1073,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -1097,7 +1119,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v2.jpg" alt="Sete Três — v2" /></div>
+            <div><img src="~/assets/images/v2.png" alt="Sete Três — v2" /></div>
           </div>
         </div>
       </div>
@@ -1138,8 +1160,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -1183,7 +1207,7 @@
               </div>
             </div>
             <div>
-              <img src="~/assets/images/1997.jpg" alt="Sete Três — 1997" />
+              <img src="~/assets/images/1997.png" alt="Sete Três — 1997" />
             </div>
           </div>
         </div>
@@ -1225,8 +1249,10 @@
                         justify-center
                         px-4
                         xl:px-8
-                        w-16
-                        h-16
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
                         m-4
                         ml-0
                         font-semibold
@@ -1269,7 +1295,7 @@
                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
-            <div><img src="~/assets/images/v1.jpg" alt="Sete Três — v1" /></div>
+            <div><img src="~/assets/images/v1.png" alt="Sete Três — v1" /></div>
           </div>
         </div>
       </div>

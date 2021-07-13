@@ -88,7 +88,12 @@ export default {
     '@/assets/css/setetres/r.css',
     '@/assets/css/setetres/setetres.css',
   ],
-  plugins: [],
+  plugins: [
+    {
+      src: '~/plugins/ga.js',
+      mode: 'client',
+    },
+  ],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',

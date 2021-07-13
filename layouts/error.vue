@@ -180,7 +180,7 @@ export default {
 
   head() {
     return {
-      title: 'Sete Três — Error',
+      title: 'Sete Três — Archive',
     }
   },
 
