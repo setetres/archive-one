@@ -179,6 +179,95 @@
                     select-none
                   "
                 >
+                  Version 13
+                </h3>
+                <div class="flex flex-1 border-l">
+                  <div class="flex flex-1 items-center px-8 pr-0 font-semibold">
+                    2021
+                  </div>
+                  <div>
+                    <a
+                      aria-label="Sete Três"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://setetres.st"
+                      class="
+                        flex
+                        items-center
+                        justify-center
+                        px-4
+                        xl:px-8
+                        w-10
+                        xl:w-16
+                        h-10
+                        xl:h-16
+                        m-4
+                        ml-0
+                        font-semibold
+                        rounded-full
+                        ring-inset
+                        focus:outline-none
+                        focus:ring
+                        focus:ring-opacity-100
+                        focus:ring-gray-900
+                        hover:bg-gray-100
+                        uppercase
+                        select-none
+                      "
+                    >
+                      Go
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-1 items-center justify-center p-8 xl:p-16 2xl:pt-16"
+        >
+          <div
+            class="
+              rounded-3xl
+              shadow-md
+              bg-white
+              dark:bg-gray-900
+              mx-auto
+              overflow-hidden
+            "
+          >
+            <div class="border-b border-b border-gray-200 dark:border-gray-800">
+              <div class="flex space-x-2 py-6 px-8">
+                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+              </div>
+            </div>
+            <div>
+              <img src="~/assets/images/v13.png" alt="Sete Três — v13" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col flex-1">
+      <div class="flex flex-col 2xl:flex-row">
+        <div class="px-8 xl:px-16 2xl:pr-0 w-full 2xl:w-2/5">
+          <div class="sticky pt-8 xl:pt-16 top-0">
+            <div class="bg-white rounded-full shadow-md">
+              <div class="flex justify-between">
+                <h3
+                  class="
+                    self-center
+                    rounded-full
+                    text-base
+                    xl:text-2xl
+                    font-marker
+                    mx-8
+                    text-gray-700
+                    select-none
+                  "
+                >
                   Version 12
                 </h3>
                 <div class="flex flex-1 border-l">
