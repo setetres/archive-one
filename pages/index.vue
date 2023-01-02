@@ -190,7 +190,7 @@
                       aria-label="Sete Três"
                       rel="noopener noreferrer"
                       target="_blank"
-                      href="https://setetres.st"
+                      href="https://v14.setetres.st"
                       class="
                         flex
                         items-center
@@ -244,7 +244,7 @@
               </div>
             </div>
             <div>
-              <img src="~/assets/images/v14.png" alt="Sete Três — v13" />
+              <img src="~/assets/images/v14.png" alt="Sete Três — v14" />
             </div>
           </div>
         </div>
@@ -1490,7 +1490,7 @@ export default {
 
   head() {
     return {
-      title: 'Sete Três — Archive',
+      title: 'Sete Três — Archive One',
     }
   },
 

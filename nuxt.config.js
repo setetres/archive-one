@@ -10,7 +10,7 @@ export default {
     bodyAttrs: {
       class: 'overflow-y-scroll min-h-screen select-none',
     },
-    title: 'Sete Três — Archive',
+    title: 'Sete Três — Archive One',
     meta: [
       { charset: 'utf-8' },
       {
@@ -21,25 +21,25 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Since 2008.',
+        content: '🗄️ v1.0 of the archive.',
       },
 
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:title', property: 'og:title', content: 'Sete Três — Archive' },
+      { hid: 'og:title', property: 'og:title', content: 'Sete Três — Archive One' },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Since 2008.',
+        content: '🗄️ v1.0 of the archive.',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://archive.setetres.st/share.png',
+        content: 'https://archive-one.setetres.st/share-archive-one.png',
       },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://archive.setetres.st',
+        content: 'https://archive-one.setetres.st',
       },
 
       {
@@ -50,21 +50,21 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Sete Três — Archive',
+        content: 'Sete Três — Archive One',
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Since 2008.',
+        content: '🗄️ v1.0 of the archive.',
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://archive.setetres.st/share.png',
+        content: 'https://archive-one.setetres.st/share-archive-one.png',
       },
     ],
     link: [
-      { rel: 'icon', href: '/favicon.svg' },
+      { rel: 'icon', href: '/favicon.png' },
       {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',

@@ -11,7 +11,7 @@ export default {
 
   head() {
     return {
-      title: 'Sete Três — Archive',
+      title: 'Sete Três — Archive One',
     }
   },
 
